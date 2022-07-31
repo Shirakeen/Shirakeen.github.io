@@ -1,0 +1,83 @@
+body {
+  background-image:url("/assets/topography.webp");
+}
+
+header {
+  display: block;
+  background-color: #333333;
+  height: 50px;
+  position: absolute;
+  top : 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.logo {
+  margin-left: 10%;
+  padding: 10px;
+}
+
+#linkedin{
+  margin-right: 10%;
+}
+
+header div {
+  display: inline;
+}
+
+.topnav a {
+  float: right;
+  color: #ff0099;
+  text-align: center;
+  padding: 15px;
+  text-decoration: underline;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+body section{
+  padding: 0 10% 0 10%;
+  font: "Courier";
+  line-height: 150%;
+  text-align: justify;
+}
+
+#name {
+  font-family: 'Mochiy Pop One', sans-serif;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  font-size: 32pt;
+}
+
+#job {
+  color: #ff0099;
+  font-size: 22pt;
+}
+
+#wiki {
+  margin: 2em;
+  font-size: 22pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+body p {
+  font-size: 16pt;
+}
+
+#dash {
+  margin: 3em;
+  text-align: center;
+}
